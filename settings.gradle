@@ -1,0 +1,3 @@
+include ':EasyShimmerLayoutLibrary'
+include ':app'
+rootProject.name = "EasyShimmerLayoutExample"

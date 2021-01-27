@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EasyShimmerLayout">
+        <attr format="reference" name="shimmer_placeholder"/>
+        <attr format="integer" name="shimmer_num"/>
+        <attr format="enum" name="shimmer_type">
+            <enum name="linear" value="0"/>
+            <enum name="grid" value="1"/>
+        </attr>
+        <attr format="enum" name="shimmer_orientation">
+            <enum name="vertical" value="1"/>
+            <enum name="horizontal" value="0"/>
+        </attr>
+        <attr format="integer" name="shimmer_colNum"/>
+    </declare-styleable>
+</resources>
